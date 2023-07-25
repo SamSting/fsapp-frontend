@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import ToDo from "./components/ToDo";
 import { addToDo, getAllToDo,updateToDo,deleteToDo } from "./utils/HandleApi";
 
+
 function App() {
 
 
@@ -28,11 +29,28 @@ function App() {
 
 
 
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
   return (
     <div className="App">
-      
+
+
+
       <div className="container">
-        <h1>ToDo App</h1>
+        <h1><b>Tour Plan App</b></h1>
+        <h2>Plan your day ahead and enjoy your vacation.</h2>
 
         <div className="top">
           <input type="text" 
